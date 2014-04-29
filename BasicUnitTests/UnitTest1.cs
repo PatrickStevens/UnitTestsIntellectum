@@ -51,5 +51,17 @@ namespace BasicUnitTests
       TestGenericInvoke<DateTime>();
     }
 
+    [TestMethod]
+    public void TestFoo()
+    {
+      var foos = DemoLib.FooTest.ReflectFoos();
+      Assert.IsNotNull(foos);
+      Assert.IsTrue(foos.Count > 0);
+
+      foreach (var foo in foos)
+      {
+        Assert.IsNotNull(foo);
+      }
+    }
   }
 }

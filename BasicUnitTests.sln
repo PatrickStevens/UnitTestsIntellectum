@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicUnitTests", "BasicUnit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLib", "DemoLib\DemoLib.csproj", "{375DEAC7-369D-48C2-83E8-B6C901AB1BEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDemoApp", "WpfDemoApp\WpfDemoApp.csproj", "{21F928F4-3292-44F2-B03E-C33CABE1FB03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{375DEAC7-369D-48C2-83E8-B6C901AB1BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{375DEAC7-369D-48C2-83E8-B6C901AB1BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{375DEAC7-369D-48C2-83E8-B6C901AB1BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21F928F4-3292-44F2-B03E-C33CABE1FB03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F928F4-3292-44F2-B03E-C33CABE1FB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21F928F4-3292-44F2-B03E-C33CABE1FB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F928F4-3292-44F2-B03E-C33CABE1FB03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
