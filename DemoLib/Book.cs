@@ -11,6 +11,8 @@ namespace DemoLib
 {
   public class Book
   {
+    internal Book() { }
+
     public string Title { get; set; }
     public List<Author> Authors { get; set; }
   }
@@ -25,7 +27,7 @@ namespace DemoLib
   // which will trigger the UI update.
   //
 
-  public class AuthorViewModel
+  internal class AuthorViewModel
   {
     public AuthorViewModel(string name)
     {
@@ -35,7 +37,7 @@ namespace DemoLib
     public string Name { get; set; }
   }
 
-  public class BookViewModel : INotifyPropertyChanged
+  internal class BookViewModel : INotifyPropertyChanged
   {
     private Book book;
 
@@ -59,7 +61,7 @@ namespace DemoLib
 
     public List<AuthorViewModel> Authors { get; set; }
 
-    public BookViewModel(Book book)
+    internal BookViewModel(Book book)
     {
       this.book = book;
 
@@ -83,7 +85,7 @@ namespace DemoLib
     }
   }
 
-  public class BookProvider
+  internal class BookProvider
   {
     private ObservableCollection<BookViewModel> _books = null;
     public BookProvider()
